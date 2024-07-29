@@ -1,0 +1,11 @@
+@font-face{
+    font-family: 'nadia';
+    src: url(/fonts/nadia-serif.eot);
+    src: url(/fonts/nadia-serif.woff) format('woff'),
+   url(/fonts/nadia-serif.ttf) format('truetype'), 
+   url(/fonts/nadia-serif.svg) format('svg');
+}
+
+h1{
+    font-family: nadia, Arial, Helvetica;
+}

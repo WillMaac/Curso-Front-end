@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#radius{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50px 100px 100px 50px;
+}

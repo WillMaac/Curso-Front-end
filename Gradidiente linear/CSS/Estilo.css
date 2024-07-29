@@ -1,0 +1,29 @@
+body{
+    background-color: red;
+    background-image: linear-gradient(70deg, red 50%,  blue, black, white, orange 60%), url(/bg.jpg);
+    background-size: auto, 100% 100%; 
+    }
+
+    html, body{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: -1px -1px 0  #5d5d5d5d, -2px 2px 0 #a3a3a3, -5px 5px 0 #bcbcbc;
+    color: white;
+}
+
+#radius{
+
+    background: orange;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    border-radius: 50px 100px / 100px 50px;
+    box-shadow: -10px -10px 10px black, 10px 10px 0 red, -5px -5px 0 10px;
+}
