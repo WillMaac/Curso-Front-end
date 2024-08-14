@@ -1,0 +1,22 @@
+div{
+    border: solid 3px red;
+    padding: 25px;
+    position: relative;
+}
+
+div:before{
+    content:"before: ";
+    background: #ccc;
+}
+div:after{
+    content: "";
+    background: red;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+div:
